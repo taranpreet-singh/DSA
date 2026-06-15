@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0011-container-with-most-water](https://github.com/taranpreet-singh/DSA/tree/main/0011-container-with-most-water/) | Medium |
 | [0015-3sum](https://github.com/taranpreet-singh/DSA/tree/main/0015-3sum/) | Medium |
 | [0036-valid-sudoku](https://github.com/taranpreet-singh/DSA/tree/main/0036-valid-sudoku/) | Medium |
+| [0042-trapping-rain-water](https://github.com/taranpreet-singh/DSA/tree/main/0042-trapping-rain-water/) | Hard |
 | [0049-group-anagrams](https://github.com/taranpreet-singh/DSA/tree/main/0049-group-anagrams/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/taranpreet-singh/DSA/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0217-contains-duplicate](https://github.com/taranpreet-singh/DSA/tree/main/0217-contains-duplicate/) | Easy |
@@ -75,8 +76,21 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/taranpreet-singh/DSA/tree/main/0011-container-with-most-water/) | Medium |
 | [0015-3sum](https://github.com/taranpreet-singh/DSA/tree/main/0015-3sum/) | Medium |
+| [0042-trapping-rain-water](https://github.com/taranpreet-singh/DSA/tree/main/0042-trapping-rain-water/) | Hard |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/taranpreet-singh/DSA/tree/main/0011-container-with-most-water/) | Medium |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0042-trapping-rain-water](https://github.com/taranpreet-singh/DSA/tree/main/0042-trapping-rain-water/) | Hard |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0042-trapping-rain-water](https://github.com/taranpreet-singh/DSA/tree/main/0042-trapping-rain-water/) | Hard |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0042-trapping-rain-water](https://github.com/taranpreet-singh/DSA/tree/main/0042-trapping-rain-water/) | Hard |
 <!---LeetCode Topics End-->
