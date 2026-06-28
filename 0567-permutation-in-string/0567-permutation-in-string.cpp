@@ -1,6 +1,9 @@
 class Solution {
 public:
     bool checkInclusion(string s1, string s2) {
+        if (s1.size() > s2.size())
+            return false;
+
         unordered_map<char, int> mp;
         for (auto c : s1) {
             mp[c]++;
