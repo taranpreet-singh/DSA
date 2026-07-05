@@ -4,35 +4,41 @@ public:
         if (s1.size() > s2.size())
             return false;
 
-        unordered_map<char, int> mp;
-        for (auto c : s1) {
-            mp[c]++;
+        vector<int> s1Count(26, 0);
+        vector<int> s2Count(26, 0);
+
+        for (int i = 0; i < s1.size(); i++) {
+            s1Count[s1[i] - 'a']++;
+            s2Count[s2[i] - 'a']++;
         }
 
-        bool reset = true;
-        unordered_map<char, int> mp_copy;
-        int l = 0, r = 0;
-        while (r < s2.size()) {
-            char curr = s2[r];
-            if (reset) {
-                mp_copy = mp;
-                reset = false;
-            }
-            if (mp_copy.count(curr)) {
-                r++;
-                mp_copy[curr]--;
-                if (mp_copy[curr] == 0)
-                    mp_copy.erase(curr);
-
-                if (mp_copy.size() == 0)
-                    return true;
-            } else {
-                l++;
-                r = l;
-                reset = true;
-            }
+        int matches = 0;
+        for (int i = 0; i < 26; i++) {
+            if (s1Count[i] == s2Count[i])
+                matches++;
         }
 
-        return false;
+        int l = 0;
+        for (int r = s1.size(); r < s2.size(); r++) {
+            if (matches == 26)
+                return true;
+
+            int index = s2[r] - 'a';
+            s2Count[index]++;
+            if (s2Count[index] == s1Count[index])
+                matches++;
+            else if (s1Count[index] + 1 == s2Count[index])
+                matches--;
+
+            index = s2[l] - 'a';
+            s2Count[index]--;
+            if (s2Count[index] == s1Count[index])
+                matches++;
+            else if (s1Count[index] - 1 == s2Count[index])
+                matches--;
+
+            l++;
+        }
+        return matches == 26;
     }
 };
