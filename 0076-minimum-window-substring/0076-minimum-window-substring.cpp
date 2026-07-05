@@ -27,7 +27,7 @@ public:
                 }
 
                 window[s[l]]--;
-                if (countT.count(s[l]) && countT[s[l]] > window[s[l]])
+                if (countT.count(s[l]) && window[s[l]] < countT[s[l]])
                     have--;
                 l++;
             }
