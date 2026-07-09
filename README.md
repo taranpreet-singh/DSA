@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0217-contains-duplicate](https://github.com/taranpreet-singh/DSA/tree/main/0217-contains-duplicate/) | Easy |
 | [0238-product-of-array-except-self](https://github.com/taranpreet-singh/DSA/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/taranpreet-singh/DSA/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0704-binary-search](https://github.com/taranpreet-singh/DSA/tree/main/0704-binary-search/) | Easy |
 | [0739-daily-temperatures](https://github.com/taranpreet-singh/DSA/tree/main/0739-daily-temperatures/) | Medium |
 | [0853-car-fleet](https://github.com/taranpreet-singh/DSA/tree/main/0853-car-fleet/) | Medium |
 ## Hash Table
@@ -129,4 +130,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/taranpreet-singh/DSA/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0704-binary-search](https://github.com/taranpreet-singh/DSA/tree/main/0704-binary-search/) | Easy |
 <!---LeetCode Topics End-->
