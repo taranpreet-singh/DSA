@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int search(vector<int>& nums, int target) {
+    int binSearch(vector<int>& nums, int target) {
         int l = 0, r = nums.size() - 1;
         int m;
         while (l <= r) {
@@ -13,5 +13,16 @@ public:
                 return m;
         }
         return -1;
+    }
+
+    int search(vector<int>& nums, int target) {
+
+        int idx = upper_bound(nums.begin(), nums.end(), target) - nums.begin();
+
+        if (idx > 0 && nums[idx - 1] == target) {
+            return idx - 1;
+        } else {
+            return -1;
+        }
     }
 };
