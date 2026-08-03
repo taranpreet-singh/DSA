@@ -95,6 +95,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/taranpreet-singh/DSA/tree/main/0011-container-with-most-water/) | Medium |
 | [0015-3sum](https://github.com/taranpreet-singh/DSA/tree/main/0015-3sum/) | Medium |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/taranpreet-singh/DSA/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0042-trapping-rain-water](https://github.com/taranpreet-singh/DSA/tree/main/0042-trapping-rain-water/) | Hard |
 | [0141-linked-list-cycle](https://github.com/taranpreet-singh/DSA/tree/main/0141-linked-list-cycle/) | Easy |
 | [0143-reorder-list](https://github.com/taranpreet-singh/DSA/tree/main/0143-reorder-list/) | Medium |
@@ -148,6 +149,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/taranpreet-singh/DSA/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0021-merge-two-sorted-lists](https://github.com/taranpreet-singh/DSA/tree/main/0021-merge-two-sorted-lists/) | Easy |
 | [0141-linked-list-cycle](https://github.com/taranpreet-singh/DSA/tree/main/0141-linked-list-cycle/) | Easy |
 | [0143-reorder-list](https://github.com/taranpreet-singh/DSA/tree/main/0143-reorder-list/) | Medium |
