@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0076-minimum-window-substring](https://github.com/taranpreet-singh/DSA/tree/main/0076-minimum-window-substring/) | Hard |
 | [0128-longest-consecutive-sequence](https://github.com/taranpreet-singh/DSA/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0141-linked-list-cycle](https://github.com/taranpreet-singh/DSA/tree/main/0141-linked-list-cycle/) | Easy |
+| [0146-lru-cache](https://github.com/taranpreet-singh/DSA/tree/main/0146-lru-cache/) | Medium |
 | [0217-contains-duplicate](https://github.com/taranpreet-singh/DSA/tree/main/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/taranpreet-singh/DSA/tree/main/0242-valid-anagram/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/taranpreet-singh/DSA/tree/main/0347-top-k-frequent-elements/) | Medium |
@@ -136,6 +137,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0146-lru-cache](https://github.com/taranpreet-singh/DSA/tree/main/0146-lru-cache/) | Medium |
 | [0155-min-stack](https://github.com/taranpreet-singh/DSA/tree/main/0155-min-stack/) | Medium |
 ## Math
 | Problem Name | Difficulty |
@@ -158,6 +160,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0021-merge-two-sorted-lists](https://github.com/taranpreet-singh/DSA/tree/main/0021-merge-two-sorted-lists/) | Easy |
 | [0141-linked-list-cycle](https://github.com/taranpreet-singh/DSA/tree/main/0141-linked-list-cycle/) | Easy |
 | [0143-reorder-list](https://github.com/taranpreet-singh/DSA/tree/main/0143-reorder-list/) | Medium |
+| [0146-lru-cache](https://github.com/taranpreet-singh/DSA/tree/main/0146-lru-cache/) | Medium |
 | [0206-reverse-linked-list](https://github.com/taranpreet-singh/DSA/tree/main/0206-reverse-linked-list/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
@@ -178,4 +181,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0287-find-the-duplicate-number](https://github.com/taranpreet-singh/DSA/tree/main/0287-find-the-duplicate-number/) | Medium |
+## Doubly-Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0146-lru-cache](https://github.com/taranpreet-singh/DSA/tree/main/0146-lru-cache/) | Medium |
 <!---LeetCode Topics End-->
