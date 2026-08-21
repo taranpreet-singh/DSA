@@ -28,13 +28,36 @@ private:
         }
     }
 
-    void DFSRecurrsive(TreeNode* root) {}
+    void DFSRecurrsive(TreeNode* root) {
+        if (!root)
+            return;
 
-    void DFSIterative(TreeNode* root) {}
+        swap(root->left, root->right);
+        DFSRecurrsive(root->left);
+        DFSRecurrsive(root->right);
+    }
+
+    void DFSIterative(TreeNode* root) {
+        if (!root)
+            return;
+        stack<TreeNode*> stack;
+        stack.push(root);
+        while (!stack.empty()) {
+            TreeNode* node = stack.top();
+            stack.pop();
+            swap(node->left, node->right);
+            if (node->left)
+                stack.push(node->left);
+            if (node->right)
+                stack.push(node->right);
+        }
+    }
 
 public:
     TreeNode* invertTree(TreeNode* root) {
-        BFS(root);
+        // BFS(root);
+        // DFSRecurrsive(root);
+        DFSIterative(root);
         return root;
     }
 };
