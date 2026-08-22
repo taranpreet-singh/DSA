@@ -11,34 +11,59 @@
  * };
  */
 class Solution {
+
 private:
-    int depth(TreeNode* root) {
+    int dfs(TreeNode* root) {
         if (!root)
             return 0;
-        return 1 + max(depth(root->right), depth(root->left));
+
+        int left = dfs(root->left);
+        if (left == -1)
+            return -1;
+
+        int right = dfs(root->right);
+        if (right == -1)
+            return -1;
+
+        if (abs(left - right) > 1)
+            return -1;
+
+        return 1 + max(left, right);
     }
 
 public:
-    bool isBalanced(TreeNode* root) {
-        if (!root)
-            return true;
+    bool isBalanced(TreeNode* root) { return dfs(root) != -1; }
 
-        queue<TreeNode*> q;
-        q.push(root);
-        while (!q.empty()) {
-            TreeNode* node = q.front();
-            q.pop();
+    // O(n^2)
 
-            int leftDepth = depth(node->left);
-            int rightDepth = depth(node->right);
-            if (abs(leftDepth - rightDepth) > 1)
-                return false;
+    // private:
+    //     int depth(TreeNode* root) {
+    //         if (!root)
+    //             return 0;
+    //         return 1 + max(depth(root->right), depth(root->left));
+    //     }
 
-            if (node->left)
-                q.push(node->left);
-            if (node->right)
-                q.push(node->right);
-        }
-        return true;
-    }
+    // public:
+    //     bool isBalanced(TreeNode* root) {
+    //         if (!root)
+    //             return true;
+
+    //         queue<TreeNode*> q;
+    //         q.push(root);
+    //         while (!q.empty()) {
+    //             TreeNode* node = q.front();
+    //             q.pop();
+
+    //             int leftDepth = depth(node->left);
+    //             int rightDepth = depth(node->right);
+    //             if (abs(leftDepth - rightDepth) > 1)
+    //                 return false;
+
+    //             if (node->left)
+    //                 q.push(node->left);
+    //             if (node->right)
+    //                 q.push(node->right);
+    //         }
+    //         return true;
+    //     }
 };
